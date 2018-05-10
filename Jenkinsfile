@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''git checkout master
 git pull origin master
-ng build'''
+npm run ng -- build'''
       }
     }
   }
